@@ -57,8 +57,38 @@ $ docker system info
 ## Les conteneurs
 
 - image choisie
-- instanciation d'un conteneur
+- instanciation d'un nouveau conteneur
 
     ```bash
     $ docker container run centos:8
     ```
+
+- Ex cmd :
+
+```bash
+$ docker image ls
+$ docker container ls
+$ docker container --help
+$ docker container run --help
+$ docker container run centos:8
+$ docker image ls
+$ docker container ls
+$ docker container ls --help
+$ docker container ls -a
+$ docker container run centos:8
+$ docker container ls -a
+$ docker container run centos:8 cat /etc/redha-release
+$ docker container run centos:8 cat /etc/redhat-release
+$ cat /etc/os-release 
+$ docker container ls -a
+$ docker container run centos:8 sleep 60
+$ docker container ls -a
+$ docker system df
+$ docker container run --help
+$ docker container run -it centos:8
+$ docker container ls
+$ docker container ls -a
+$ docker container --help
+$ docker container start --help
+$ docker container start -i afa74e96324c
+```
