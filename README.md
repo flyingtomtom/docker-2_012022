@@ -35,3 +35,14 @@ $ docker system df
 $ docker system df --help
 $ docker system info
 ```
+
+- Lister les ressources :
+
+    - image: 
+        ```bash
+        $ docker image ls
+        ```
+    - conteneurs:
+        ```bash
+        $ docker container ls
+        ```
