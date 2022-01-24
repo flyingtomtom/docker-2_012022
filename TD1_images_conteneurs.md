@@ -56,7 +56,7 @@ Le container est t-il toujours en cours d’exécution ?
 
 **Correstion exercice3**
 
-1. ```$ sudo docker container run -it alpine```
+1. ```$ sudo docker container run alpine ping 8.8.8.8```
 2. Le conteneur est arrêté car plus de processus à l'intérieur
 3. ```$ sudo docker container run -it -d alpine ping 8.8.8.8```
 
@@ -161,6 +161,6 @@ Notez l'identifiant du container retourné par la commande précédente.
 **Correstion exercice 8**
 
 1. ```$ sudo docker container run -d -p 30000:80 nginx:1.18-alpine```
-2. ```sudo docker container inspec {ID/NOM}```
-3. ```sudo docker container inspect -f "{{ .NetworkSettings.IPAddress }}" 2```
+2. ```$ sudo docker container inspect {ID/NOM}```
+3. ```$ sudo docker container inspect -f "{{ .NetworkSettings.IPAddress }}"```
    ```$ sudo docker container inspect -f "{{ .Name }}" 2```%   

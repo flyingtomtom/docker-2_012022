@@ -99,3 +99,10 @@ $ docker container start -i afa74e96324c
     - Un conteneur basé sur image applicative (daemon), ou qui exécute une commande qui dure,  déclenche un processus actif et donc reste "up"
     - Mode interactif + tty : prise de contrôle dans un conteneur
     - Mode détaché : background (instanciation du conteneur en background) => approche production
+
+
+## Network
+
+> https://docs.docker.com/config/containers/container-networking/
+
+- Publication de port : permet la conexion réseau/port vers un conteneur depuis l'extérieur du docker hôte
