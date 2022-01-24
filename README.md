@@ -92,3 +92,10 @@ $ docker container --help
 $ docker container start --help
 $ docker container start -i afa74e96324c
 ```
+
+- Cycle de vie du conteneur
+
+    - Par défaut un conteneur s'instancie, exécute la commande prévue par l'image et s'arrête si plus de processus à l'intérieur
+    - Un conteneur basé sur image applicative (daemon), ou qui exécute une commande qui dure,  déclenche un processus actif et donc reste "up"
+    - Mode interactif + tty : prise de contrôle dans un conteneur
+    - Mode détaché : background (instanciation du conteneur en background) => approche production
