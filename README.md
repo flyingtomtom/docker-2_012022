@@ -46,3 +46,19 @@ $ docker system info
         ```bash
         $ docker container ls
         ```
+
+## Les images docker
+
+- Docker hub : registry publique
+
+> https://hub.docker.com/
+
+
+## Les conteneurs
+
+- image choisie
+- instanciation d'un conteneur
+
+    ```bash
+    $ docker container run centos:8
+    ```
