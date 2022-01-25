@@ -53,8 +53,12 @@ $ docker system info
 
 > https://hub.docker.com/
 
+> https://docs.docker.com/engine/reference/commandline/images/
+
 
 ## Les conteneurs
+
+> https://docs.docker.com/engine/reference/commandline/container_run/
 
 - image choisie
 - instanciation d'un nouveau conteneur
@@ -103,6 +107,6 @@ $ docker container start -i afa74e96324c
 
 ## Network
 
-> https://docs.docker.com/config/containers/container-networking/
-
 - Publication de port : permet la conexion réseau/port vers un conteneur depuis l'extérieur du docker hôte
+
+    > https://docs.docker.com/config/containers/container-networking/
