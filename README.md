@@ -110,3 +110,22 @@ $ docker container start -i afa74e96324c
 - Publication de port : permet la conexion réseau/port vers un conteneur depuis l'extérieur du docker hôte
 
     > https://docs.docker.com/config/containers/container-networking/
+
+
+- Historique: lier des conteneurs par leur nom réseau :
+
+  > https://docs.docker.com/network/links/
+
+  > /!\ LEGACY
+
+- Méthode best-practive 
+    - réseau bridge de type user-defined
+
+      > https://docs.docker.com/network/bridge/
+
+      - Mise en place automatique de DNS entre les conteneurs d'un même réseau
+
+
+    - réseau host : stack réseau du docker hote
+
+    - Réseau none : pas de stack réseau
