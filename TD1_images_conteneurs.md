@@ -158,9 +158,9 @@ Notez l'identifiant du container retourné par la commande précédente.
 3. En utilisant le format Go template, récupérez le nom et l’IP du container
 4. Manipuler les Go template pour récupérer d'autres information
 
-**Correstion exercice 8**
+**Correction exercice 8**
 
 1. ```$ sudo docker container run -d -p 30000:80 nginx:1.18-alpine```
 2. ```$ sudo docker container inspect {ID/NOM}```
 3. ```$ sudo docker container inspect -f "{{ .NetworkSettings.IPAddress }}"```
-   ```$ sudo docker container inspect -f "{{ .Name }}" 2```%   
+   ```$ sudo docker container inspect -f "{{ .Name }}" 2```
